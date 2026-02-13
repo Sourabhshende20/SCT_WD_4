@@ -22,3 +22,4 @@ A task management application that allows users to add, edit, delete, organize, 
 - State management
 
 
+<img width="1919" height="1028" alt="Image" src="https://github.com/user-attachments/assets/ccfa25a2-1f42-433a-a116-a8987466d94c" />
