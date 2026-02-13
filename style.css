@@ -1,0 +1,116 @@
+body{
+    font-family:'Segoe UI',sans-serif;
+    background:#1a1a2e;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    margin:0;
+}
+
+.container{
+    background:#16213e;
+    padding:2rem;
+    border-radius:10px;
+    width:400px;
+    box-shadow:0 10px 30px rgba(0,0,0,.5);
+    text-align:center;
+}
+
+input,select,button{
+    padding:10px;
+    border:none;
+    border-radius:5px;
+    margin-top:10px;
+}
+
+button{
+    background:#e94560;
+    color:white;
+    cursor:pointer;
+}
+
+button:hover{
+    opacity:.9;
+}
+
+.input-section{
+    display:flex;
+    flex-direction:column;
+}
+
+.btn-row{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:10px;
+    width:100%;
+}
+
+.btn-row button{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-width:110px;
+}
+
+.mic{
+    min-width:50px;
+    font-size:18px;
+}
+
+ul{
+    list-style:none;
+    padding:0;
+}
+
+li{
+    background:#0f3460;
+    margin:6px 0;
+    padding:10px;
+    display:flex;
+    justify-content:space-between;
+    border-radius:5px;
+}
+
+.completed{
+    text-decoration:line-through;
+    opacity:.6;
+}
+
+.priority{
+    font-size:11px;
+    padding:2px 6px;
+    border-radius:4px;
+    margin-left:5px;
+}
+
+.Low{background:#2ecc71}
+.Medium{background:#f1c40f;color:black}
+.High{background:#e74c3c}
+
+.actions button{
+    margin-left:4px;
+    font-size:12px;
+}
+
+.progress{
+    height:8px;
+    background:#0f3460;
+    border-radius:10px;
+    overflow:hidden;
+    margin:15px 0;
+}
+
+#progressBar{
+    height:100%;
+    width:0%;
+    background:#e94560;
+}
+
+footer{
+    margin-top:20px;
+    font-size:13px;
+    opacity:.7;
+}
