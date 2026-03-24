@@ -1,4 +1,4 @@
-#  SCT_WD_4 To-Do Web App
+#  To-Do Web App
 
 # Overview
 A task management application that allows users to add, edit, delete, organize, and mark tasks as completed. Includes date and time support for tasks.
